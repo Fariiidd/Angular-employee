@@ -1,0 +1,29 @@
+###
+
+GET http://localhost:3000/api/employees
+
+###
+
+POST http://localhost:3000/api/employees
+Content-Type: application/json
+
+{
+    "name": "Juan Rodriguez",
+    "position": "Junior Developer",
+    "office": "French",
+    "salary": 2000
+}
+
+###
+GET http://localhost:3000/api/employees
+
+### 
+DELETE http://localhost:3000/api/employees/5f6fd2fea7470f31b6b3ef5a
+
+### 
+PUT http://localhost:3000/api/employees/5f6fd2fea7470f31b6b3ef5a
+Content-Type: application/json
+
+{
+    "name": ""
+}
